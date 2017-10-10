@@ -1,0 +1,14 @@
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/bin/Debug/netcoreapp2.0/app.db
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/bin/Debug/netcoreapp2.0/TapIdentity.deps.json
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/bin/Debug/netcoreapp2.0/TapIdentity.runtimeconfig.json
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/bin/Debug/netcoreapp2.0/TapIdentity.runtimeconfig.dev.json
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/bin/Debug/netcoreapp2.0/TapIdentity.dll
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/bin/Debug/netcoreapp2.0/TapIdentity.pdb
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/obj/Debug/netcoreapp2.0/TapIdentity.csprojResolveAssemblyReference.cache
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/obj/Debug/netcoreapp2.0/TapIdentity.csproj.CoreCompileInputs.cache
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/obj/Debug/netcoreapp2.0/TapIdentity.AssemblyInfoInputs.cache
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/obj/Debug/netcoreapp2.0/TapIdentity.AssemblyInfo.cs
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/obj/Debug/netcoreapp2.0/TapIdentity.dll
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/obj/Debug/netcoreapp2.0/TapIdentity.pdb
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapIdentity/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib

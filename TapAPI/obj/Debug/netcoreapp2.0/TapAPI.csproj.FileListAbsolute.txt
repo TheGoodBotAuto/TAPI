@@ -1,0 +1,12 @@
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/obj/Debug/netcoreapp2.0/TapAPI.csprojResolveAssemblyReference.cache
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/obj/Debug/netcoreapp2.0/TapAPI.csproj.CoreCompileInputs.cache
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/obj/Debug/netcoreapp2.0/TapAPI.AssemblyInfoInputs.cache
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/obj/Debug/netcoreapp2.0/TapAPI.AssemblyInfo.cs
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/bin/Debug/netcoreapp2.0/TapAPI.deps.json
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/bin/Debug/netcoreapp2.0/TapAPI.runtimeconfig.json
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/bin/Debug/netcoreapp2.0/TapAPI.runtimeconfig.dev.json
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/bin/Debug/netcoreapp2.0/TapAPI.dll
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/bin/Debug/netcoreapp2.0/TapAPI.pdb
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/obj/Debug/netcoreapp2.0/TapAPI.dll
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/obj/Debug/netcoreapp2.0/TapAPI.pdb
+/Users/towerj/Desktop/TAPOUT2.0Projects/TapAPI/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib

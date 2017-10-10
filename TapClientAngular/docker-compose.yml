@@ -1,0 +1,10 @@
+version:'2'
+services:
+  webapiapplication:
+    container_name:AngularClientTest
+    image: webapiapplication
+    build:
+    context: .
+    dockerfile: .docker/Dockerfile
+    ports:
+      – "8087:8087"

@@ -1,0 +1,64 @@
+﻿<p *ngIf="!serverVulnerabilities">Good jerb</p>
+<select class="form-control" (change)="navigateTo($event.target.value)">
+    <option> - Select View - </option>
+    <option>Server Summary</option>
+    <option>Vulnerability Summary</option>
+    <option>Vulnerability Details</option>
+</select>
+<select class="form-control" (change)="loadReport($event.target.value)">
+    <option *ngFor="let report of reportTypes" value="{{ report.reportNameID }}">{{ report.reportName }}</option>
+
+</select>
+<form (ngSubmit)="onSubmit(vulnerabilityForm)" #vulnerabilityForm="ngForm">
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>IP</th>
+                <th>Hostname</th>
+                <th># Findings</th>
+                <th>Highest Severity</th>
+                <th>Oldest Finding</th>
+                <th>Remediation Response</th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let server of serverVulnerabilities; let i=index">
+                <td>
+                    <a [routerLink]="['/vulnerabilities/server/details/', server.id]">
+                        {{ server.ipAddress }}
+                    </a>
+                </td>
+                <td>{{ server.netBIOSName }}</td>
+                <td>{{ server.numberOfFindings }}</td>
+                <td>{{ severityLevel[server.highestSeverity] }}</td>
+                <td>{{ server.oldestFindingDate }}</td>
+                <td>
+                    <select class="form-control" [(ngModel)]="server.decision" name="decision-{{ i }}">
+                        <option></option>
+                        <ng-container *ngFor="let decision of remediationResponses">
+                            <option>{{ decision }}</option>
+                        </ng-container>
+
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="Additional Comments" [(ngModel)]="server.comments" name="comments-{{ i }}">
+                </td>
+
+                <input type="hidden" class="form-control" name="ipAddress-{{ i }}" [(ngModel)]="server.ipAddress" value="{{ server.ipAddress }}">
+                <input type="hidden" class="form-control" name="uniqueID-{{ i }}" [(ngModel)]="server.id" value="{{ server.id }}">
+
+            </tr>
+        </tbody>
+        <div *ngIf="isBrowser">
+            <pagination [directionLinks]="true" [boundaryLinks]="true" [totalItems]="totalItems" [itemsPerPage]="itemsPerPage"
+                        [maxSize]="maxSize" [(ngModel)]="currentPage" (numPages)="numPages = $event"
+                        previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;"
+                        (pageChanged)="pageChanged($event)">
+            </pagination>
+        </div>
+        <button type="submit" class="btn btn-success" [disabled]="!vulnerabilityForm.form.valid">Submit</button>
+    </table>
+</form>
+
